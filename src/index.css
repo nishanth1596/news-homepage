@@ -11,3 +11,14 @@
   --color-Silver: #c5c6ce;
   --color-Yellow: #e9aa52;
 }
+
+@layer {
+  .burgerMenu {
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 68.3%;
+    z-index: 3;
+  }
+}

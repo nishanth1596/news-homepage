@@ -50,13 +50,13 @@ function Header() {
       </nav>
 
       {isOpen && (
-        <div className="absolute right-0 h-screen w-[68.3%] bg-green-500 md:hidden">
+        <div className="bg-AlmostWhite burgerMenu flex flex-col md:hidden">
           <button
             className="mt-7 mr-5 ml-auto"
             aria-label="Toggle menu"
             onClick={handleShowNavBar}
           >
-            <img src={menuCloseIcon} alt="Close Menu Icon " />
+            <img src={menuCloseIcon} alt="Close Menu Icon" className="" />
           </button>
 
           <nav className="mt-[86.3px] ml-6">
