@@ -13,7 +13,7 @@ function HeroSection() {
         />
       </picture>
 
-      <div className="md:grid md:grid-cols-2">
+      <div className="lg:grid lg:grid-cols-2">
         <h1 className="text-DarkSpaceBlue mt-6 pr-7 text-[2.5rem] leading-[2.5rem] font-bold md:text-[3.5rem] md:leading-[3.5rem] md:font-extrabold">
           The Bright Future of Web 3.0?
         </h1>
