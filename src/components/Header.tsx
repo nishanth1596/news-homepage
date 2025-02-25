@@ -30,7 +30,7 @@ function Header() {
       </button>
 
       <nav className="hidden md:mr-5 md:block xl:mr-0">
-        <ul className="text-Gunmetal *:hover:text-LightVermillion text-[.94rem] leading-[26px] font-normal *:cursor-pointer md:flex md:gap-10">
+        <ul className="text-Gunmetal *:focus:text-LightVermillion *:active:text-LightVermillion *:hover:text-LightVermillion text-[.94rem] leading-[26px] font-normal *:cursor-pointer md:flex md:gap-10">
           <li>
             <a href="#">Home</a>
           </li>
